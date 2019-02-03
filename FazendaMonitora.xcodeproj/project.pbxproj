@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F3046E122071A33002E625B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3046E022071A33002E625B /* AppDelegate.swift */; };
+		2F3046E322071A33002E625B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3046E222071A33002E625B /* ViewController.swift */; };
+		2F3046E622071A33002E625B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3046E422071A33002E625B /* Main.storyboard */; };
+		2F3046E822071A34002E625B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3046E722071A34002E625B /* Assets.xcassets */; };
+		2F3046EB22071A34002E625B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3046E922071A34002E625B /* LaunchScreen.storyboard */; };
+		2F3046F622071A34002E625B /* FazendaMonitoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3046F522071A34002E625B /* FazendaMonitoraTests.swift */; };
+		2F30470122071A34002E625B /* FazendaMonitoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F30470022071A34002E625B /* FazendaMonitoraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F3046F222071A34002E625B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F3046D522071A33002E625B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F3046DC22071A33002E625B;
+			remoteInfo = FazendaMonitora;
+		};
+		2F3046FD22071A34002E625B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F3046D522071A33002E625B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F3046DC22071A33002E625B;
+			remoteInfo = FazendaMonitora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F3046DD22071A33002E625B /* FazendaMonitora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FazendaMonitora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3046E022071A33002E625B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F3046E222071A33002E625B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F3046E522071A33002E625B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F3046E722071A34002E625B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F3046EA22071A34002E625B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F3046EC22071A34002E625B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3046F122071A34002E625B /* FazendaMonitoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FazendaMonitoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3046F522071A34002E625B /* FazendaMonitoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FazendaMonitoraTests.swift; sourceTree = "<group>"; };
+		2F3046F722071A34002E625B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3046FC22071A34002E625B /* FazendaMonitoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FazendaMonitoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F30470022071A34002E625B /* FazendaMonitoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FazendaMonitoraUITests.swift; sourceTree = "<group>"; };
+		2F30470222071A34002E625B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F3046DA22071A33002E625B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3046EE22071A34002E625B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3046F922071A34002E625B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F3046D422071A33002E625B = {
+			isa = PBXGroup;
+			children = (
+				2F3046DF22071A33002E625B /* FazendaMonitora */,
+				2F3046F422071A34002E625B /* FazendaMonitoraTests */,
+				2F3046FF22071A34002E625B /* FazendaMonitoraUITests */,
+				2F3046DE22071A33002E625B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F3046DE22071A33002E625B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F3046DD22071A33002E625B /* FazendaMonitora.app */,
+				2F3046F122071A34002E625B /* FazendaMonitoraTests.xctest */,
+				2F3046FC22071A34002E625B /* FazendaMonitoraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F3046DF22071A33002E625B /* FazendaMonitora */ = {
+			isa = PBXGroup;
+			children = (
+				2F3046E022071A33002E625B /* AppDelegate.swift */,
+				2F3046E222071A33002E625B /* ViewController.swift */,
+				2F3046E422071A33002E625B /* Main.storyboard */,
+				2F3046E722071A34002E625B /* Assets.xcassets */,
+				2F3046E922071A34002E625B /* LaunchScreen.storyboard */,
+				2F3046EC22071A34002E625B /* Info.plist */,
+			);
+			path = FazendaMonitora;
+			sourceTree = "<group>";
+		};
+		2F3046F422071A34002E625B /* FazendaMonitoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F3046F522071A34002E625B /* FazendaMonitoraTests.swift */,
+				2F3046F722071A34002E625B /* Info.plist */,
+			);
+			path = FazendaMonitoraTests;
+			sourceTree = "<group>";
+		};
+		2F3046FF22071A34002E625B /* FazendaMonitoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F30470022071A34002E625B /* FazendaMonitoraUITests.swift */,
+				2F30470222071A34002E625B /* Info.plist */,
+			);
+			path = FazendaMonitoraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F3046DC22071A33002E625B /* FazendaMonitora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F30470522071A34002E625B /* Build configuration list for PBXNativeTarget "FazendaMonitora" */;
+			buildPhases = (
+				2F3046D922071A33002E625B /* Sources */,
+				2F3046DA22071A33002E625B /* Frameworks */,
+				2F3046DB22071A33002E625B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FazendaMonitora;
+			productName = FazendaMonitora;
+			productReference = 2F3046DD22071A33002E625B /* FazendaMonitora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F3046F022071A34002E625B /* FazendaMonitoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F30470822071A34002E625B /* Build configuration list for PBXNativeTarget "FazendaMonitoraTests" */;
+			buildPhases = (
+				2F3046ED22071A34002E625B /* Sources */,
+				2F3046EE22071A34002E625B /* Frameworks */,
+				2F3046EF22071A34002E625B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F3046F322071A34002E625B /* PBXTargetDependency */,
+			);
+			name = FazendaMonitoraTests;
+			productName = FazendaMonitoraTests;
+			productReference = 2F3046F122071A34002E625B /* FazendaMonitoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F3046FB22071A34002E625B /* FazendaMonitoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F30470B22071A34002E625B /* Build configuration list for PBXNativeTarget "FazendaMonitoraUITests" */;
+			buildPhases = (
+				2F3046F822071A34002E625B /* Sources */,
+				2F3046F922071A34002E625B /* Frameworks */,
+				2F3046FA22071A34002E625B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F3046FE22071A34002E625B /* PBXTargetDependency */,
+			);
+			name = FazendaMonitoraUITests;
+			productName = FazendaMonitoraUITests;
+			productReference = 2F3046FC22071A34002E625B /* FazendaMonitoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F3046D522071A33002E625B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mattcbr;
+				TargetAttributes = {
+					2F3046DC22071A33002E625B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2F3046F022071A34002E625B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2F3046DC22071A33002E625B;
+					};
+					2F3046FB22071A34002E625B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2F3046DC22071A33002E625B;
+					};
+				};
+			};
+			buildConfigurationList = 2F3046D822071A33002E625B /* Build configuration list for PBXProject "FazendaMonitora" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F3046D422071A33002E625B;
+			productRefGroup = 2F3046DE22071A33002E625B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F3046DC22071A33002E625B /* FazendaMonitora */,
+				2F3046F022071A34002E625B /* FazendaMonitoraTests */,
+				2F3046FB22071A34002E625B /* FazendaMonitoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F3046DB22071A33002E625B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3046EB22071A34002E625B /* LaunchScreen.storyboard in Resources */,
+				2F3046E822071A34002E625B /* Assets.xcassets in Resources */,
+				2F3046E622071A33002E625B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3046EF22071A34002E625B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3046FA22071A34002E625B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F3046D922071A33002E625B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3046E322071A33002E625B /* ViewController.swift in Sources */,
+				2F3046E122071A33002E625B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3046ED22071A34002E625B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3046F622071A34002E625B /* FazendaMonitoraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3046F822071A34002E625B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F30470122071A34002E625B /* FazendaMonitoraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F3046F322071A34002E625B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F3046DC22071A33002E625B /* FazendaMonitora */;
+			targetProxy = 2F3046F222071A34002E625B /* PBXContainerItemProxy */;
+		};
+		2F3046FE22071A34002E625B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F3046DC22071A33002E625B /* FazendaMonitora */;
+			targetProxy = 2F3046FD22071A34002E625B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F3046E422071A33002E625B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F3046E522071A33002E625B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F3046E922071A34002E625B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F3046EA22071A34002E625B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F30470322071A34002E625B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F30470422071A34002E625B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F30470622071A34002E625B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DAQ759ZX7;
+				INFOPLIST_FILE = FazendaMonitora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattcbr.FazendaMonitora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F30470722071A34002E625B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DAQ759ZX7;
+				INFOPLIST_FILE = FazendaMonitora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattcbr.FazendaMonitora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F30470922071A34002E625B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DAQ759ZX7;
+				INFOPLIST_FILE = FazendaMonitoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattcbr.FazendaMonitoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FazendaMonitora.app/FazendaMonitora";
+			};
+			name = Debug;
+		};
+		2F30470A22071A34002E625B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DAQ759ZX7;
+				INFOPLIST_FILE = FazendaMonitoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattcbr.FazendaMonitoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FazendaMonitora.app/FazendaMonitora";
+			};
+			name = Release;
+		};
+		2F30470C22071A34002E625B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DAQ759ZX7;
+				INFOPLIST_FILE = FazendaMonitoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattcbr.FazendaMonitoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FazendaMonitora;
+			};
+			name = Debug;
+		};
+		2F30470D22071A34002E625B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DAQ759ZX7;
+				INFOPLIST_FILE = FazendaMonitoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattcbr.FazendaMonitoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FazendaMonitora;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F3046D822071A33002E625B /* Build configuration list for PBXProject "FazendaMonitora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F30470322071A34002E625B /* Debug */,
+				2F30470422071A34002E625B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F30470522071A34002E625B /* Build configuration list for PBXNativeTarget "FazendaMonitora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F30470622071A34002E625B /* Debug */,
+				2F30470722071A34002E625B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F30470822071A34002E625B /* Build configuration list for PBXNativeTarget "FazendaMonitoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F30470922071A34002E625B /* Debug */,
+				2F30470A22071A34002E625B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F30470B22071A34002E625B /* Build configuration list for PBXNativeTarget "FazendaMonitoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F30470C22071A34002E625B /* Debug */,
+				2F30470D22071A34002E625B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F3046D522071A33002E625B /* Project object */;
+}
