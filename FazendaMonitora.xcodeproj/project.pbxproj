@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F095DB322084D2C00B24213 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F095DB222084D2C00B24213 /* OverviewViewController.swift */; };
+		2F095DB62208523400B24213 /* CropsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F095DB52208523400B24213 /* CropsViewController.swift */; };
+		2F095DB9220853F200B24213 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F095DB8220853F200B24213 /* DetailsViewController.swift */; };
 		2F3046E122071A33002E625B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3046E022071A33002E625B /* AppDelegate.swift */; };
-		2F3046E322071A33002E625B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3046E222071A33002E625B /* ViewController.swift */; };
 		2F3046E622071A33002E625B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3046E422071A33002E625B /* Main.storyboard */; };
 		2F3046E822071A34002E625B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3046E722071A34002E625B /* Assets.xcassets */; };
 		2F3046EB22071A34002E625B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3046E922071A34002E625B /* LaunchScreen.storyboard */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F095DB222084D2C00B24213 /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		2F095DB52208523400B24213 /* CropsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropsViewController.swift; sourceTree = "<group>"; };
+		2F095DB8220853F200B24213 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		2F3046DD22071A33002E625B /* FazendaMonitora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FazendaMonitora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3046E022071A33002E625B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F3046E222071A33002E625B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F3046E522071A33002E625B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F3046E722071A34002E625B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F3046EA22071A34002E625B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +78,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F095DB022084CF700B24213 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				2F095DB222084D2C00B24213 /* OverviewViewController.swift */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		2F095DB122084D0900B24213 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F095DB7220853DA00B24213 /* Details */,
+				2F095DB42208520E00B24213 /* Crops */,
+				2F095DB022084CF700B24213 /* Overview */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F095DB42208520E00B24213 /* Crops */ = {
+			isa = PBXGroup;
+			children = (
+				2F095DB52208523400B24213 /* CropsViewController.swift */,
+			);
+			path = Crops;
+			sourceTree = "<group>";
+		};
+		2F095DB7220853DA00B24213 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				2F095DB8220853F200B24213 /* DetailsViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 		2F3046D422071A33002E625B = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +135,8 @@
 		2F3046DF22071A33002E625B /* FazendaMonitora */ = {
 			isa = PBXGroup;
 			children = (
+				2F095DB122084D0900B24213 /* Views */,
 				2F3046E022071A33002E625B /* AppDelegate.swift */,
-				2F3046E222071A33002E625B /* ViewController.swift */,
 				2F3046E422071A33002E625B /* Main.storyboard */,
 				2F3046E722071A34002E625B /* Assets.xcassets */,
 				2F3046E922071A34002E625B /* LaunchScreen.storyboard */,
@@ -256,8 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F3046E322071A33002E625B /* ViewController.swift in Sources */,
 				2F3046E122071A33002E625B /* AppDelegate.swift in Sources */,
+				2F095DB322084D2C00B24213 /* OverviewViewController.swift in Sources */,
+				2F095DB62208523400B24213 /* CropsViewController.swift in Sources */,
+				2F095DB9220853F200B24213 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
