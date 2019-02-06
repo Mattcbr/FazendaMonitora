@@ -16,6 +16,7 @@
 		2F3046EB22071A34002E625B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3046E922071A34002E625B /* LaunchScreen.storyboard */; };
 		2F3046F622071A34002E625B /* FazendaMonitoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3046F522071A34002E625B /* FazendaMonitoraTests.swift */; };
 		2F30470122071A34002E625B /* FazendaMonitoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F30470022071A34002E625B /* FazendaMonitoraUITests.swift */; };
+		D10B6952306CFBE53EC9DA5E /* Pods_FazendaMonitora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82C10FD741CD147DDD4ACC5 /* Pods_FazendaMonitora.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		2F3046FC22071A34002E625B /* FazendaMonitoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FazendaMonitoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F30470022071A34002E625B /* FazendaMonitoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FazendaMonitoraUITests.swift; sourceTree = "<group>"; };
 		2F30470222071A34002E625B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B455D254C7096AECF8D2D21 /* Pods-FazendaMonitora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FazendaMonitora.release.xcconfig"; path = "Pods/Target Support Files/Pods-FazendaMonitora/Pods-FazendaMonitora.release.xcconfig"; sourceTree = "<group>"; };
+		8984551631F06D9C770E4185 /* Pods-FazendaMonitora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FazendaMonitora.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FazendaMonitora/Pods-FazendaMonitora.debug.xcconfig"; sourceTree = "<group>"; };
+		A82C10FD741CD147DDD4ACC5 /* Pods_FazendaMonitora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FazendaMonitora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10B6952306CFBE53EC9DA5E /* Pods_FazendaMonitora.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +124,8 @@
 				2F3046F422071A34002E625B /* FazendaMonitoraTests */,
 				2F3046FF22071A34002E625B /* FazendaMonitoraUITests */,
 				2F3046DE22071A33002E625B /* Products */,
+				7294D77719563F439B61EA82 /* Pods */,
+				BFA93BF004DB202B831BD1DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,6 +170,23 @@
 			path = FazendaMonitoraUITests;
 			sourceTree = "<group>";
 		};
+		7294D77719563F439B61EA82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8984551631F06D9C770E4185 /* Pods-FazendaMonitora.debug.xcconfig */,
+				3B455D254C7096AECF8D2D21 /* Pods-FazendaMonitora.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFA93BF004DB202B831BD1DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A82C10FD741CD147DDD4ACC5 /* Pods_FazendaMonitora.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F30470522071A34002E625B /* Build configuration list for PBXNativeTarget "FazendaMonitora" */;
 			buildPhases = (
+				B0E43815D446541C329A0D60 /* [CP] Check Pods Manifest.lock */,
 				2F3046D922071A33002E625B /* Sources */,
 				2F3046DA22071A33002E625B /* Frameworks */,
 				2F3046DB22071A33002E625B /* Resources */,
+				00F1E944EB625DABB7F4F635 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -288,6 +314,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00F1E944EB625DABB7F4F635 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FazendaMonitora/Pods-FazendaMonitora-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FazendaMonitora/Pods-FazendaMonitora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0E43815D446541C329A0D60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FazendaMonitora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2F3046D922071A33002E625B /* Sources */ = {
@@ -470,6 +543,7 @@
 		};
 		2F30470622071A34002E625B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8984551631F06D9C770E4185 /* Pods-FazendaMonitora.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +562,7 @@
 		};
 		2F30470722071A34002E625B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B455D254C7096AECF8D2D21 /* Pods-FazendaMonitora.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

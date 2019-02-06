@@ -57,48 +57,43 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Red" translatesAutoresizingMaskIntoConstraints="NO" id="tqM-CJ-34b">
-                                                <rect key="frame" x="123.5" y="25.5" width="128" height="128"/>
+                                                <rect key="frame" x="123.5" y="32.5" width="128" height="128"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="128" id="BjO-EX-IEg"/>
                                                     <constraint firstAttribute="width" constant="128" id="tOj-EC-pyE"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Você tem pontos que requerem ações imediatas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0s-fo-ZUQ">
-                                                <rect key="frame" x="10" y="171.5" width="355" height="41"/>
+                                                <rect key="frame" x="10" y="178.5" width="355" height="41"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.71794706580000001" green="0.088963963090000001" blue="0.1105927303" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pontos Monitorados:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sb9-ff-fKg">
-                                                <rect key="frame" x="108.5" y="222.5" width="158.5" height="20.5"/>
+                                                <rect key="frame" x="108.5" y="229.5" width="158.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="bex-60-o4P">
-                                                <rect key="frame" x="19" y="253" width="337.5" height="48"/>
+                                                <rect key="frame" x="19" y="260" width="337.5" height="34"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTx-dU-QWt">
-                                                        <rect key="frame" x="0.0" y="0.0" width="112.5" height="48"/>
-                                                        <string key="text">70
-Status Ok</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <color key="textColor" red="0.18121626969999999" green="0.79812026020000004" blue="0.44165042040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDf-wB-WjG">
-                                                        <rect key="frame" x="122" y="0.0" width="112.5" height="48"/>
-                                                        <string key="text">29
-Status Médio</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <color key="textColor" red="0.79686868190765381" green="0.60782879590988159" blue="0.047548018395900726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="egI-jP-xoG">
-                                                        <rect key="frame" x="244.5" y="0.0" width="93" height="48"/>
-                                                        <state key="normal">
-                                                            <string key="title">1
-Status Critico</string>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thf-wx-RXC">
+                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="34"/>
+                                                        <state key="normal" title="Button">
+                                                            <color key="titleColor" red="0.18121626969999999" green="0.79812026020000004" blue="0.44165042040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Yv-Vf-tU2">
+                                                        <rect key="frame" x="145.5" y="0.0" width="54" height="34"/>
+                                                        <state key="normal" title="Button">
+                                                            <color key="titleColor" red="0.79686868190000004" green="0.60782879590000005" blue="0.047548018400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="egI-jP-xoG">
+                                                        <rect key="frame" x="291.5" y="0.0" width="46" height="34"/>
+                                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                                        <state key="normal" title="Button">
                                                             <color key="titleColor" red="0.71794706580000001" green="0.088963963090000001" blue="0.1105927303" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
                                                         <connections>
@@ -147,6 +142,8 @@ Status Critico</string>
                     <tabBarItem key="tabBarItem" title="Overview" image="Overview " id="dUx-Do-Rhq"/>
                     <connections>
                         <outlet property="criticalStatusButton" destination="egI-jP-xoG" id="CE1-E8-uih"/>
+                        <outlet property="mediumStatusButton" destination="3Yv-Vf-tU2" id="Ire-0V-7D9"/>
+                        <outlet property="okStatusButton" destination="thf-wx-RXC" id="HX9-0L-OVv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3dp-Po-qqv" userLabel="First Responder" sceneMemberID="firstResponder"/>
