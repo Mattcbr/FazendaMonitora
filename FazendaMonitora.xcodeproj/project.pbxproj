@@ -16,6 +16,12 @@
 		2F3046EB22071A34002E625B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3046E922071A34002E625B /* LaunchScreen.storyboard */; };
 		2F3046F622071A34002E625B /* FazendaMonitoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3046F522071A34002E625B /* FazendaMonitoraTests.swift */; };
 		2F30470122071A34002E625B /* FazendaMonitoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F30470022071A34002E625B /* FazendaMonitoraUITests.swift */; };
+		2F5173E8220B4F7000581FDF /* RequestMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5173E7220B4F7000581FDF /* RequestMaker.swift */; };
+		2F5173EA220B4FE800581FDF /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5173E9220B4FE800581FDF /* Parser.swift */; };
+		2F5173EC220B509300581FDF /* CropsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5173EB220B509300581FDF /* CropsModel.swift */; };
+		2F5173EE220B5FF400581FDF /* OverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5173ED220B5FF400581FDF /* OverviewViewModel.swift */; };
+		2F5173F0220B71ED00581FDF /* CropsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5173EF220B71ED00581FDF /* CropsViewModel.swift */; };
+		2F5173F3220B731F00581FDF /* CropCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5173F2220B731F00581FDF /* CropCell.swift */; };
 		D10B6952306CFBE53EC9DA5E /* Pods_FazendaMonitora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82C10FD741CD147DDD4ACC5 /* Pods_FazendaMonitora.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +58,12 @@
 		2F3046FC22071A34002E625B /* FazendaMonitoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FazendaMonitoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F30470022071A34002E625B /* FazendaMonitoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FazendaMonitoraUITests.swift; sourceTree = "<group>"; };
 		2F30470222071A34002E625B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5173E7220B4F7000581FDF /* RequestMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMaker.swift; sourceTree = "<group>"; };
+		2F5173E9220B4FE800581FDF /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		2F5173EB220B509300581FDF /* CropsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropsModel.swift; sourceTree = "<group>"; };
+		2F5173ED220B5FF400581FDF /* OverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewModel.swift; sourceTree = "<group>"; };
+		2F5173EF220B71ED00581FDF /* CropsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropsViewModel.swift; sourceTree = "<group>"; };
+		2F5173F2220B731F00581FDF /* CropCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropCell.swift; sourceTree = "<group>"; };
 		3B455D254C7096AECF8D2D21 /* Pods-FazendaMonitora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FazendaMonitora.release.xcconfig"; path = "Pods/Target Support Files/Pods-FazendaMonitora/Pods-FazendaMonitora.release.xcconfig"; sourceTree = "<group>"; };
 		8984551631F06D9C770E4185 /* Pods-FazendaMonitora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FazendaMonitora.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FazendaMonitora/Pods-FazendaMonitora.debug.xcconfig"; sourceTree = "<group>"; };
 		A82C10FD741CD147DDD4ACC5 /* Pods_FazendaMonitora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FazendaMonitora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				2F095DB222084D2C00B24213 /* OverviewViewController.swift */,
+				2F5173ED220B5FF400581FDF /* OverviewViewModel.swift */,
 			);
 			path = Overview;
 			sourceTree = "<group>";
@@ -104,7 +117,9 @@
 		2F095DB42208520E00B24213 /* Crops */ = {
 			isa = PBXGroup;
 			children = (
+				2F5173F1220B730000581FDF /* Cell */,
 				2F095DB52208523400B24213 /* CropsViewController.swift */,
+				2F5173EF220B71ED00581FDF /* CropsViewModel.swift */,
 			);
 			path = Crops;
 			sourceTree = "<group>";
@@ -142,6 +157,8 @@
 		2F3046DF22071A33002E625B /* FazendaMonitora */ = {
 			isa = PBXGroup;
 			children = (
+				2F5173E6220B4F5E00581FDF /* Models */,
+				2F5173E5220B4F4600581FDF /* Core */,
 				2F095DB122084D0900B24213 /* Views */,
 				2F3046E022071A33002E625B /* AppDelegate.swift */,
 				2F3046E422071A33002E625B /* Main.storyboard */,
@@ -168,6 +185,31 @@
 				2F30470222071A34002E625B /* Info.plist */,
 			);
 			path = FazendaMonitoraUITests;
+			sourceTree = "<group>";
+		};
+		2F5173E5220B4F4600581FDF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2F5173E7220B4F7000581FDF /* RequestMaker.swift */,
+				2F5173E9220B4FE800581FDF /* Parser.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2F5173E6220B4F5E00581FDF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F5173EB220B509300581FDF /* CropsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F5173F1220B730000581FDF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2F5173F2220B731F00581FDF /* CropCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		7294D77719563F439B61EA82 /* Pods */ = {
@@ -369,8 +411,14 @@
 			files = (
 				2F3046E122071A33002E625B /* AppDelegate.swift in Sources */,
 				2F095DB322084D2C00B24213 /* OverviewViewController.swift in Sources */,
+				2F5173EA220B4FE800581FDF /* Parser.swift in Sources */,
 				2F095DB62208523400B24213 /* CropsViewController.swift in Sources */,
 				2F095DB9220853F200B24213 /* DetailsViewController.swift in Sources */,
+				2F5173F3220B731F00581FDF /* CropCell.swift in Sources */,
+				2F5173EE220B5FF400581FDF /* OverviewViewModel.swift in Sources */,
+				2F5173E8220B4F7000581FDF /* RequestMaker.swift in Sources */,
+				2F5173EC220B509300581FDF /* CropsModel.swift in Sources */,
+				2F5173F0220B71ED00581FDF /* CropsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

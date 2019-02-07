@@ -144,6 +144,8 @@
                         <outlet property="criticalStatusButton" destination="egI-jP-xoG" id="CE1-E8-uih"/>
                         <outlet property="mediumStatusButton" destination="3Yv-Vf-tU2" id="Ire-0V-7D9"/>
                         <outlet property="okStatusButton" destination="thf-wx-RXC" id="HX9-0L-OVv"/>
+                        <outlet property="statusDescriptionLabel" destination="n0s-fo-ZUQ" id="8Z9-ag-Ojx"/>
+                        <outlet property="statusIconImageView" destination="tqM-CJ-34b" id="2fz-bm-qSf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3dp-Po-qqv" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -179,7 +181,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="detailCell" rowHeight="100" id="bry-b4-pN0">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="detailCell" rowHeight="100" id="bry-b4-pN0" customClass="CropCell" customModule="FazendaMonitora" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bry-b4-pN0" id="SMD-G9-8ul">
@@ -206,13 +208,13 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Umidade: 10%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMm-PR-ZdS">
-                                            <rect key="frame" x="108" y="34" width="110" height="21"/>
+                                            <rect key="frame" x="108" y="34" width="262" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.71794706580000001" green="0.088963963090000001" blue="0.1105927303" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperatura: 34ºC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LUf-fe-smb">
-                                            <rect key="frame" x="224" y="34" width="146" height="21"/>
+                                            <rect key="frame" x="108" y="60" width="262" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -221,13 +223,14 @@
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="naJ-iN-6Gy" secondAttribute="trailing" constant="8" id="2pL-kB-qrY"/>
                                         <constraint firstItem="mLo-Bt-MsO" firstAttribute="leading" secondItem="baX-nP-Vdo" secondAttribute="trailing" constant="8" id="4GA-aw-Cay"/>
-                                        <constraint firstItem="LUf-fe-smb" firstAttribute="top" secondItem="naJ-iN-6Gy" secondAttribute="bottom" constant="5" id="5vo-1c-NSH"/>
+                                        <constraint firstItem="LUf-fe-smb" firstAttribute="top" secondItem="vMm-PR-ZdS" secondAttribute="bottom" constant="5" id="97B-Gs-hKw"/>
                                         <constraint firstItem="naJ-iN-6Gy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mLo-Bt-MsO" secondAttribute="trailing" constant="5" id="AAe-SL-fGM"/>
-                                        <constraint firstAttribute="trailing" secondItem="LUf-fe-smb" secondAttribute="trailing" constant="5" id="LtS-Tf-tdE"/>
+                                        <constraint firstAttribute="trailing" secondItem="vMm-PR-ZdS" secondAttribute="trailing" constant="5" id="EgD-NR-HnO"/>
+                                        <constraint firstAttribute="trailing" secondItem="LUf-fe-smb" secondAttribute="trailing" constant="5" id="Jek-fS-eCR"/>
                                         <constraint firstItem="vMm-PR-ZdS" firstAttribute="top" secondItem="mLo-Bt-MsO" secondAttribute="bottom" constant="5" id="WW1-FN-NBL"/>
                                         <constraint firstItem="vMm-PR-ZdS" firstAttribute="leading" secondItem="baX-nP-Vdo" secondAttribute="trailing" constant="8" id="apO-zP-G3i"/>
-                                        <constraint firstItem="LUf-fe-smb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vMm-PR-ZdS" secondAttribute="trailing" constant="5" id="br0-CK-srP"/>
                                         <constraint firstItem="naJ-iN-6Gy" firstAttribute="top" secondItem="SMD-G9-8ul" secondAttribute="top" constant="8" id="nqX-Bi-cGa"/>
+                                        <constraint firstItem="LUf-fe-smb" firstAttribute="leading" secondItem="baX-nP-Vdo" secondAttribute="trailing" constant="8" id="sBS-Ye-DUL"/>
                                         <constraint firstItem="mLo-Bt-MsO" firstAttribute="top" secondItem="SMD-G9-8ul" secondAttribute="top" constant="8" id="yvt-nE-QEO"/>
                                     </constraints>
                                 </tableViewCellContentView>
@@ -238,6 +241,11 @@
                                     <constraint firstItem="baX-nP-Vdo" firstAttribute="top" secondItem="bry-b4-pN0" secondAttribute="top" id="sL8-4D-zpM"/>
                                 </constraints>
                                 <connections>
+                                    <outlet property="iconImageView" destination="baX-nP-Vdo" id="pzv-uu-V2Q"/>
+                                    <outlet property="moistLabel" destination="vMm-PR-ZdS" id="kTL-MP-uu2"/>
+                                    <outlet property="nameLabel" destination="mLo-Bt-MsO" id="p0T-hV-9rH"/>
+                                    <outlet property="statusLabel" destination="naJ-iN-6Gy" id="204-8Z-Ja0"/>
+                                    <outlet property="tempLabel" destination="LUf-fe-smb" id="iic-Vf-qUm"/>
                                     <segue destination="PIZ-ha-SDp" kind="show" id="2Gh-ls-jqf"/>
                                 </connections>
                             </tableViewCell>

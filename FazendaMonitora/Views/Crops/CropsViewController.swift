@@ -10,9 +10,13 @@ import UIKit
 
 class CropsViewController: UITableViewController {
 
+    var model: CropsViewModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        model = CropsViewModel(viewController: self)
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -33,18 +37,25 @@ class CropsViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 1
+        return model?.cropsArray.count ?? 0
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "detailCell", for: indexPath)
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "detailCell", for: indexPath) as? CropCell else {
+            fatalError("Not a crop cell")
+        }
 
-        // Configure the cell...
+        let cropToSetup = self.model?.cropsArray[indexPath.row]
+        cell.setCellForCrop(crop: cropToSetup!)
 
         return cell
     }
 
+    func updateCrops(){
+        self.tableView.reloadData()
+    }
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
