@@ -325,7 +325,11 @@
                         <viewLayoutGuide key="safeArea" id="zlu-Kx-K8U"/>
                     </view>
                     <connections>
+                        <outlet property="cropNameLabel" destination="Hkc-nL-pMR" id="cKK-ds-JmN"/>
                         <outlet property="mapView" destination="vB1-AG-Jqj" id="GmS-VJ-Oba"/>
+                        <outlet property="moistLabel" destination="E7h-nO-BgY" id="WVn-Tl-1pd"/>
+                        <outlet property="statusLabel" destination="Rp3-Am-nY4" id="tlA-3s-hfK"/>
+                        <outlet property="tempLabel" destination="yvd-qT-QJs" id="NeL-iJ-RRZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="awe-Eh-odw" userLabel="First Responder" sceneMemberID="firstResponder"/>

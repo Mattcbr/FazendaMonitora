@@ -38,7 +38,7 @@ class CropCell: UITableViewCell {
             statusLabel.text = "Status: Medium"
             statusLabel.textColor = UIColor(red: 0.9922, green: 0.7529, blue: 0.1843, alpha: 1.0)
         case 3:
-            statusLabel.text = "Status: Critical"
+            statusLabel.text = "Status: Crítico"
             statusLabel.textColor = UIColor(red: 0.8863, green: 0.1294, blue: 0.1725, alpha: 1.0)
         default:
             statusLabel.text = "Status: N/A"
